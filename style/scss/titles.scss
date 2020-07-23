@@ -1,0 +1,59 @@
+@import "./color.scss";
+
+body {
+    color: $grey-color;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600 !important;
+    padding: 0;
+    margin: 0;
+}
+
+
+a {
+    color: $black-color;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+}
+
+
+.myBtn{
+    background-color: $blue-color;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 0.2;
+    padding: 18px 24px;
+    outline: none;
+}
+
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+ul{
+    list-style: none;
+}
+
+button{
+    outline: none;
+}
+
+.icon{
+    width: 1em;
+    height: 2em;
+}
+
+
+
+
+
+
+
