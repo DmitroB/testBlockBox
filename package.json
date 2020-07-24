@@ -1,0 +1,17 @@
+{
+    "name": "Dima",
+    "version": "1.5",
+    "license": "MIT",
+    "scripts": {
+      "ng": "ng",
+      "start": "ng serve"
+    },
+    "private": true,
+    "dependencies": {
+      "bootstrap": "4.5.0",
+      "jquery": "3.5.1"
+    }
+    
+    
+  }
+
