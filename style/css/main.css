@@ -169,7 +169,7 @@ span:after {
   }
 
   .active {
-    transform: translateX(200px);
+    transform: translateX(230px);
     transition: all 0.5s linear;
   }
 
@@ -188,10 +188,9 @@ span:after {
 
   .mobile-menu {
     display: block;
-    position: absolute;
-    right: 20px;
-    bottom: 0;
-    top: 0;
+    position: fixed;
+    right: 90px;
+    top: 40px;
     z-index: 9999;
   }
 
@@ -253,7 +252,12 @@ span:after {
   }
 
   .active {
-    transform: translateX(155px);
+    transform: translateX(158px);
+  }
+
+  .mobile-menu {
+    right: 15px;
+    top: 32px;
   }
 }
 @media screen and (max-width: 376px) {
@@ -273,6 +277,11 @@ span:after {
   .main-menu.menu-active {
     padding-top: 100px;
   }
+
+  .mobile-menu {
+    right: 20px;
+    top: 28px;
+  }
 }
 @media screen and (max-width: 376px) {
   .active {
@@ -281,6 +290,11 @@ span:after {
 
   .main-menu.menu-active {
     padding-top: 135px;
+  }
+
+  .mobile-menu {
+    right: 20px;
+    top: 27px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -307,6 +321,11 @@ span:after {
 
   .btnB-active {
     padding-top: 40px;
+  }
+
+  .mobile-menu {
+    right: 20px;
+    top: 24px;
   }
 }
 .sec-about {
@@ -677,12 +696,22 @@ span:after {
     padding: 0;
   }
 }
-.vector1 {
+.vector6 {
   font-size: 20px;
-  color: red;
+  color: #15BC1C;
 }
 
-.vector2 {
+.vector5 {
   font-size: 20px;
   color: #2945FF;
+}
+
+.vector7 {
+  font-size: 20px;
+  color: #FF8329;
+}
+
+.vector12 {
+  font-size: 20px;
+  color: #FF2929;
 }

@@ -174,7 +174,7 @@ span{
     }
 
     .active{
-        transform: translateX(200px);
+        transform: translateX(230px);
         transition: all 0.5s linear;
     }
 
@@ -189,21 +189,21 @@ span{
     .shadow-active{
         top: 0;
     }
+
     .mobile-menu{
         display: block;
-        position: absolute;
-        right: 20px;
-        bottom: 0;
-        top: 0;
+        position: fixed;
+        right: 90px;
+        top: 40px;
         z-index: 9999;
     }
-    .menu-btn.menu-active span:before{
-        // transform: rotate(45deg);
+    // .menu-btn.menu-active span:before{
+    //     // transform: rotate(45deg);
 
-    }
-    .menu-btn.menu-active span:after{
-        // transform: rotate(-45deg); 
-    }
+    // }
+    // .menu-btn.menu-active span:after{
+    //     // transform: rotate(-45deg); 
+    // }
     .menu-btn.menu-active span{
         z-index: 999;
     }
@@ -259,9 +259,13 @@ span{
         width: 250px;
     }
     .active{
-        transform: translateX(155px);
+        transform: translateX(158px);
     }
-}
+    .mobile-menu{
+        right: 15px;
+        top: 32px;
+    }
+} 
 @media screen and (max-width: 376px){
     .active {
         transform: translateX(35px);
@@ -278,6 +282,10 @@ span{
     .main-menu.menu-active{
         padding-top: 100px;
     }
+    .mobile-menu {
+        right: 20px;
+        top: 28px;
+    }
 
 }
 @media screen and (max-width: 376px){
@@ -286,6 +294,10 @@ span{
     }
     .main-menu.menu-active{
         padding-top: 135px;
+    }
+    .mobile-menu {
+        right: 20px;
+        top: 27px;
     }
 
 }
@@ -309,7 +321,10 @@ span{
     .btnB-active{
         padding-top: 40px;
     }
-
+    .mobile-menu {
+        right: 20px;
+        top: 24px;
+    }
 
 }
 
@@ -652,11 +667,19 @@ span{
 
 
 
-.vector1{
+.vector6{
     font-size: 20px;
-    color: red;
+    color: $green-color;
 }
-.vector2{
+.vector5{
     font-size: 20px;
     color: $blue-color;
+}
+.vector7{
+    font-size: 20px;
+    color: $orange-color;
+}
+.vector12{
+    font-size: 20px;
+    color: $red-color;
 }
