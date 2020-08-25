@@ -1,11 +1,13 @@
 @import "./color.scss";
 
+
 .header-main{
     position: relative;
     width: 100%;
     padding-top: 24px;                                               
 }
 .btnB{
+    padding-top: 7px;
     .myBtn{
         outline: none;
     }
@@ -154,7 +156,7 @@ span{
         padding-left: 0px;
         padding-right: 0px;
     }
-    .photo{
+    .photo{ 
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -259,7 +261,7 @@ span{
         width: 250px;
     }
     .active{
-        transform: translateX(158px);
+        transform: translateX(165px);
     }
     .mobile-menu{
         right: 15px;
@@ -287,6 +289,11 @@ span{
         top: 28px;
     }
 
+}
+@media screen and (max-width: 450px){
+        .active {
+            transform: translateX(82px);
+    }
 }
 @media screen and (max-width: 376px){
     .active {
@@ -328,9 +335,6 @@ span{
 
 }
 
-
-
-
 .sec-about{
     position: relative;
     padding-top: 100px;
@@ -340,7 +344,7 @@ span{
             font-size: 40px;
             letter-spacing: -0.03em;
             margin: 0;
-            padding-bottom: 10px;
+            padding-bottom: 30px;
                 @media screen and (max-width: 768px){
                     font-size: 30px;
                 }
@@ -479,9 +483,6 @@ span{
 
 
 
-
-
-
 .sec-appellation{
     font-size: 48px !important;
             @media screen and (max-width: 576px){
@@ -568,11 +569,6 @@ span{
 }
 
 
-
-
-
-
-
 .footer{
     padding: 80px 0px 60px 0px;
         .footer-content{
@@ -607,7 +603,7 @@ span{
                                     a{
                                         color: $black-color;
                                         display: block;
-                                        font-size: 14px;
+                                        font-size: 15px;
                                         font-weight: 500;
                                         text-transform: uppercase;
                                         padding: 0 20px 0 20px;
@@ -679,7 +675,467 @@ span{
     font-size: 20px;
     color: $orange-color;
 }
+.vector9{
+    font-size: 20px;
+    color: $orange-color;
+}
+.vector11{
+    font-size: 20px;
+    color: $blue-color;
+}
 .vector12{
     font-size: 20px;
     color: $red-color;
 }
+.vector14{
+    font-size: 20px;
+    color: $green-color;
+}
+
+
+
+
+// ! second page
+
+
+
+.solutions__info{
+    position: relative;
+    padding-top: 150px;
+    text-align: center;
+        @media screen and (max-width: 768px){
+            padding-top: 100px;
+        }
+        @media screen and (max-width: 576px){
+            padding-top: 60px;
+        }
+            h2{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 72px;
+                line-height: 110%;
+                margin-bottom: 28px;
+                    @media screen and (max-width: 1200px){
+                        font-size: 60px;
+                    }
+                    @media screen and (max-width: 992px){
+                        font-size: 45px;
+                    }
+                    @media screen and (max-width: 756px){
+                        font-size: 28px;
+                    }
+                    @media screen and (max-width: 450px){
+                        font-size: 20px;
+                    }
+                    @media screen and (max-width: 320px){
+                        font-size: 14px;
+                    }
+            }
+            p{
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 160%;
+                padding: 0px 95px 0px 95px;
+                margin-bottom: 30px; 
+                    @media screen and (max-width: 1200px){
+                        font-size: 18px;
+                    }
+                    @media screen and (max-width: 992px){
+                        font-size: 16px;
+                    }
+                    @media screen and (max-width: 756px){
+                        font-size: 14px;
+                    }
+                    @media screen and (max-width: 450px){
+                        font-size: 12px;
+                    }
+                    @media screen and (max-width: 415px){
+                        padding: 0px 60px 0px 60px;
+                    }
+                    @media screen and (max-width: 376px){
+                        padding: 0px 20px 0px 20px;
+                        font-size: 13px;
+                    }
+                    @media screen and (max-width: 320px){
+                        font-size: 10px;
+                    }
+            }
+}
+
+.solutions{
+    background: url(./../../img/BHpart3.png) no-repeat 3% 100%,
+    url(./../../img/BHpart2.png) no-repeat 97% 100%; 
+        @media screen and (max-width: 1200px){
+            background-size: 20%;
+        }
+        @media screen and (max-width: 1025px){
+            background-size: 16%;
+        }
+        @media screen and (max-width: 992px){
+            background-size: 20%;
+        }
+        @media screen and (max-width: 768px){
+            background: none;
+        }
+}
+
+.solutions-form{
+    background-color: transparent;
+    border: 1px solid #EAEAEA;
+    border-bottom: 1px solid #d4d3d3;
+    border-radius: 50px;
+    color: #999;
+    display: block;
+    font-size: 12px;
+    padding: 8px;
+    width: 100%;
+    outline: none;
+    resize: none;
+    line-height: inherit;
+        @media screen and (max-width: 992px){
+            padding: 5px;
+        }
+            input{
+                border: none;
+                margin: 0;
+                outline: none;
+                appearance: none;
+                font-size: 18px;
+                width: 76%;
+                padding-left: 8px;
+                    @media screen and (max-width: 1200px){
+                        width: 79%;
+                    }
+                    @media screen and (max-width: 992px){
+                        width: 74%;
+                        font-size: 16px;
+                    }
+                    @media screen and (max-width: 767px){
+                        width: 64%;
+                        font-size: 14px;
+                    }
+                    @media screen and (max-width: 576px){
+                        width: 68%;
+                        font-size: 12px;
+                    }
+                    @media screen and (max-width: 450px){
+                        width: 60%;
+                    }
+                    @media screen and (max-width: 415px){
+                        width: 70%;
+                        font-size: 12px;
+                    }
+                    @media screen and (max-width: 375px){
+                        width: 66%;
+                        font-size: 10px;
+                    }
+                    @media screen and (max-width: 320px){
+                        width: 59%;
+                        font-size: 8px;
+                    }
+            }
+            .myBtn{
+                outline: none;
+                    @media screen and (max-width: 992px){
+                        font-size: 14px;
+                    }
+                    @media screen and (max-width: 576px){
+                        font-size: 12px;
+                    }
+                    @media screen and (max-width: 415px){
+                        padding: 16px 17px 16px 17px;
+                    }
+                    @media screen and (max-width: 415px){
+                        padding: 10px 8px 10px 8px;
+                    }
+                    
+            }
+}
+
+
+
+
+
+
+
+
+
+
+.about__companies{
+    background: #FFEEEE;
+    margin-top: 100px;
+} 
+
+.circle{
+    padding-left: 65px;
+        @media screen and (max-width: 1024px){
+            padding-left: 58px;
+        }
+        @media screen and (max-width: 576px){
+            padding-left: 45px;
+        }
+        @media screen and (max-width: 450px){
+            padding-left: 10px;
+        }
+}
+
+.about__box {
+    
+    text-align: center;
+    
+            h2{
+                font-weight: 600;
+                font-size: 40px;
+                letter-spacing: -0.03em;
+                margin: 0;
+                padding: 80px 0px 20px 0px;
+                    @media screen and (max-width: 1024px){
+                        font-size: 37px;
+                    }
+                    @media screen and (max-width: 992px){
+                        font-size: 33px;
+                    }  
+                    @media screen and (max-width: 576px){
+                        font-size: 24px;
+                    }
+                    @media screen and (max-width: 450px){
+                        font-size: 20px;
+                    }
+                    @media screen and (max-width: 415px){
+                        font-size: 18px;
+                    }
+                    @media screen and (max-width: 375px){
+                        font-size: 16px;
+                    }
+                    @media screen and (max-width: 320px){
+                        font-size: 14px;
+                    }
+            }
+            p{
+                font-size: 20px;
+                font-weight: normal;
+                letter-spacing: -0.03em;
+                padding: 0px 170px 60px 170px;
+                margin: 0;
+                    @media screen and (max-width: 1024px){
+                        padding: 0px 140px 60px 140px;
+                    }
+                    @media screen and (max-width: 992px){
+                        padding: 0px 100px 60px 100px;
+                    }
+                    @media screen and (max-width: 576px){
+                        padding: 0px 60px 60px 60px;
+                        font-size: 16px;
+                    }
+                    @media screen and (max-width: 576px){
+                        padding: 0px 20px 40px 20px;
+                        font-size: 16px;
+                    }
+                    @media screen and (max-width: 375px){
+                        padding: 0px 20px 40px 20px;
+                        font-size: 13px;
+                    }
+                    @media screen and (max-width: 320px){
+                        padding: 0px 0px 40px 0px;
+                        font-size: 11px;
+                    }
+            }
+            span{
+                font-weight: 600;
+                font-size: 30px;
+                line-height: 160%;
+                padding-top: 10px;
+                    @media screen and (max-width: 993px){
+                        font-size: 25px;
+                    }
+                    @media screen and (max-width: 576px){
+                        font-size: 18px;
+                    }
+                    @media screen and (max-width: 415px){
+                        font-size: 15px;
+                    }
+                    @media screen and (max-width: 375px){
+                        font-size: 14px;
+                    }
+                    @media screen and (max-width: 320px){
+                        font-size: 12px;
+                    }
+            }
+            h4{
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 100%;
+                padding: 50px 0px 80px 0px;
+                margin: 0;
+                    @media screen and (max-width: 576px){
+                        font-size: 14px;
+                    }
+                    @media screen and (max-width: 415px){
+                        font-size: 13px;
+                    }
+                    @media screen and (max-width: 375px){
+                        font-size: 12px;
+                    }
+                    @media screen and (max-width: 320px){
+                        font-size: 10px;
+                    }
+            }
+}
+
+.patron{
+    text-align: center;
+}
+.color__1{
+    background: #E1DCFF !important;
+}
+.color__2{
+    background: #FFD9D9 !important;
+}
+.color__3{
+    background: #FFEBD9 !important;
+}
+
+.templates {
+    border: none;
+    display: block;
+    margin-top: 50px;
+        img{
+            background: none;
+            border: 1px solid #EAEAEA;
+            box-sizing: border-box;
+            border-radius: 24px;
+            width: 370px;
+            height: 409px;
+            left: 0px;
+            top: 0px;
+            margin: 0;
+                @media screen and (max-width: 1024px){
+                    width: 300px;
+                    height: 335px;
+                    margin: 0;
+                }
+                @media screen and (max-width: 375px){
+                    width: 345px;
+                    height: 370px;
+                    margin: 0;
+
+                }
+                @media screen and (max-width: 320px){
+                    width: 280px;
+                    height: 300px;
+                    margin: 0;
+                }
+        }
+}
+.station{
+    text-align: left;
+    padding: 0 !important;
+        h6{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 100%;
+            padding-top: 23px;
+        }
+        h3{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 120%;
+            letter-spacing: -0.03em;
+            color: #000000;
+            padding-top: 9px;
+        }
+        h4{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 100%;
+            padding-top: 18px;
+        }
+
+}
+
+
+
+
+
+// ! third page
+
+.blog{
+    padding-top: 77px;
+        span{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 100%;
+        }
+}
+
+.fine__girl {
+
+        img{
+            width: 536px;
+            height: 403px;
+            border-radius: 24px;
+        }
+}
+
+.blog__information {
+
+        h3{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 150%;
+            letter-spacing: -0.03em;
+            padding-top: 40px;
+        }
+}
+
+.blog{
+    .solutions-form{
+
+            input{
+                
+            }
+
+            .myBtn{
+
+            }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
