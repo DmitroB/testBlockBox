@@ -1210,6 +1210,222 @@ span{
 }
 
 
+.engagement{
+    margin-top: 55px;
+        
+}
+
+.toffee{
+    display: flex;
+    background-color:#EDF5FF;
+    border-radius: 24px;
+    @media screen and (max-width: 1024px){
+        display: block;
+    }
+        .toffee__titles{
+            padding:  75px 0px 75px 48px;
+                @media screen and (max-width: 1024px){
+                    padding: 40px 12px 0px 48px;
+                }
+                @media screen and (max-width: 768px){
+                    padding: 35px 34px 35px 40px;
+                }
+                    h6{
+                        font-weight: 600;
+                        font-size: 24px;
+                        line-height: 120%;
+                        letter-spacing: -0.03em;
+                            @media screen and (max-width: 768px){
+                                font-size: 22px;
+                            }
+                    }
+                    p{
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 16px;
+                        line-height: 160%;
+                        padding-top: 10px;
+                            @media screen and (max-width: 768px){
+                                font-size: 14px;
+                            }
+                            @media screen and (max-width: 768px){
+                                font-size: 13px;
+                            }
+                    }
+                    h4{
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 100%;
+                        color: #000000;
+                            @media screen and (max-width: 768px){
+                                font-size: 12px;
+                            }
+                    }
+        }
+        .toffee__image{
+                width: 100%;
+                padding: 48px 5px 22px 0px;
+                    @media screen and (max-width: 1024px){
+                        padding: 48px 25px 22px 0px;
+                    }
+                    @media screen and (max-width: 768px){
+                        display: none;
+                    }
+
+            img{
+                margin: 0 auto;
+                width: 235px;
+                height: 230px;
+            }
+        }
+}
+.jelly{
+    background-color: #F5EDFF;;
+}
+.ground{
+    @media screen and (max-width: 768px){
+       margin-top: 15px;
+    }
+}
+
+
+
+
+
+.fa-play:before {
+    padding-right: 10px;
+}
+
+.features{
+    margin-top: 100px;
+}
+
+.features__info{
+    padding-left: 80px;
+    @media screen and (max-width: 768px){
+        padding: 0px;
+    }
+        h2{
+            font-weight: 600;
+            font-size: 48px;
+            line-height: 120%;
+                @media screen and (max-width: 576px){
+                    font-size: 32px;
+                }
+                @media screen and (max-width: 450px){
+                    font-size: 28px;
+                }
+                @media screen and (max-width: 320px){
+                    font-size: 24px;
+                }
+        }
+        h3{
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 160%;
+            letter-spacing: -0.03em;
+            color: rgba(0, 0, 0, 0.8);
+            padding-top: 24px;
+            padding-bottom: 24px;
+                @media screen and (max-width: 576px){
+                    font-size: 16px;
+                }
+                @media screen and (max-width: 320px){
+                    font-size: 12px;
+                }
+        }
+        .myBtn{
+            outline: none;
+            padding: 24px 24px 24px 24px;
+                @media screen and (max-width: 576px){
+                    padding: 16px 18px 16px 18px;
+                }
+        }
+        h4{
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            color: rgba(0, 0, 0, 0.8);
+            padding-top: 55px;
+                @media screen and (max-width: 576px){
+                    font-size: 14px;
+                    padding-top: 40px;
+                }
+                @media screen and (max-width: 320px){
+                    font-size: 11px;
+                }
+
+        }
+        p{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            color: #000000;
+            padding-top: 15px;
+                @media screen and (max-width: 576px){
+                    font-size: 12px;
+                }
+        }
+        span{
+            color: #000000;
+                @media screen and (max-width: 576px){
+                    font-size: 10px;
+                }
+        }
+}
+
+
+.features__picture{
+    background-color: #FFE8E8;
+    border-radius: 50px;
+        img{
+            margin: 0 auto;
+        }
+}
+.features__tools{
+    padding: 38px 100px 58px 130px;
+        @media screen and (max-width: 1024px){
+            padding: 50px 100px 58px 130px;
+        }
+        @media screen and (max-width: 768px){
+            padding: 70px 58px 58px 58px;
+        }
+}
+.features__titles{
+    text-align: center;
+        h2{
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 120%;
+            letter-spacing: -0.03em;
+            color: #000000;
+            padding-top: 30px;
+            padding-bottom: 18px;
+                @media screen and (max-width: 320px){
+                    font-size: 24px;
+                }
+        }
+        span{
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: -0.03em;
+            color: rgba(0, 0, 0, 0.8);
+                @media screen and (max-width: 320px){
+                    font-size: 10px;
+                }
+        }
+        .myBtn{
+            @media screen and (max-width: 320px){
+                padding: 10px 16px 10px 16px;
+            }
+        }
+
+}
+
+
 
 
 
