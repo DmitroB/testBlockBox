@@ -880,9 +880,13 @@ span{
                         width: 64%;
                         font-size: 7px;
                     }
-                    @media screen and (max-width: 248px){
+                    @media screen and (max-width: 278px){
                         width: 58%;
                         font-size: 5px;
+                    }
+                    @media screen and (max-width: 246px){
+                        width: 55%;
+                        font-size: 3px;
                     }
             }
             .myBtn{

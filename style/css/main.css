@@ -1005,10 +1005,16 @@ span:after {
     font-size: 7px;
   }
 }
-@media screen and (max-width: 248px) {
+@media screen and (max-width: 278px) {
   .solutions-form input {
     width: 58%;
     font-size: 5px;
+  }
+}
+@media screen and (max-width: 246px) {
+  .solutions-form input {
+    width: 55%;
+    font-size: 3px;
   }
 }
 .solutions-form .myBtn {
