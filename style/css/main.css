@@ -166,13 +166,14 @@ span:after {
     position: fixed;
     flex-direction: column;
     top: 0;
+    right: 0px;
     z-index: 99;
     transform: translateX(1000px);
     transition: all 0.5s linear;
   }
 
   .active {
-    transform: translateX(230px);
+    transform: translateX(0px);
     transition: all 0.2s linear;
   }
 
@@ -250,56 +251,26 @@ span:after {
     padding: 0px 10px 0px 10px;
   }
 
-  .btnB-active, .main-menu.menu-active {
-    width: 250px;
-  }
-
   .active {
-    transform: translateX(165px);
+    transform: translateX(0px);
   }
 
   .mobile-menu {
     right: 15px;
     top: 32px;
   }
-}
-@media screen and (max-width: 376px) {
-  .active {
-    transform: translateX(35px);
-  }
 
-  .main-menu.menu-active {
-    padding-top: 130px;
+  .menu {
+    right: 0;
   }
 }
 @media screen and (max-width: 415px) {
-  .active {
-    transform: translateX(50px);
-  }
-
-  .main-menu.menu-active {
-    padding-top: 100px;
-  }
-
   .mobile-menu {
     right: 20px;
     top: 28px;
   }
 }
-@media screen and (max-width: 450px) {
-  .active {
-    transform: translateX(82px);
-  }
-}
 @media screen and (max-width: 376px) {
-  .active {
-    transform: translateX(20px);
-  }
-
-  .main-menu.menu-active {
-    padding-top: 135px;
-  }
-
   .mobile-menu {
     right: 20px;
     top: 27px;
@@ -319,12 +290,7 @@ span:after {
   }
 
   .active {
-    transform: translateX(1px);
     transition: all 0.5s linear;
-  }
-
-  .main-menu.menu-active {
-    padding-top: 50px;
   }
 
   .btnB-active {
@@ -902,122 +868,98 @@ span:after {
 }
 
 .solutions-form {
+  position: relative;
   background-color: transparent;
-  border: 1px solid #EAEAEA;
-  border-bottom: 1px solid #d4d3d3;
-  border-radius: 50px;
   color: #999;
   display: block;
   font-size: 12px;
-  padding: 8px;
   width: 100%;
   outline: none;
   resize: none;
   line-height: inherit;
 }
-@media screen and (max-width: 992px) {
-  .solutions-form {
-    padding: 5px;
-  }
-}
 .solutions-form input {
-  border: none;
+  border: 1px solid #EAEAEA;
+  border-radius: 50px;
+  width: 100%;
+  padding: 12px;
+  padding-right: 140px;
   margin: 0;
   outline: none;
   appearance: none;
   font-size: 18px;
-  width: 76%;
   padding-left: 8px;
-}
-@media screen and (max-width: 1200px) {
-  .solutions-form input {
-    width: 76%;
-  }
 }
 @media screen and (max-width: 992px) {
   .solutions-form input {
-    width: 74%;
     font-size: 16px;
   }
 }
 @media screen and (max-width: 767px) {
   .solutions-form input {
-    width: 64%;
     font-size: 14px;
   }
 }
 @media screen and (max-width: 576px) {
   .solutions-form input {
-    width: 68%;
     font-size: 12px;
   }
 }
 @media screen and (max-width: 575px) {
   .solutions-form input {
-    width: 60%;
     font-size: 12px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .solutions-form input {
-    width: 60%;
   }
 }
 @media screen and (max-width: 449px) {
   .solutions-form input {
-    width: 57%;
     font-size: 11px;
   }
 }
 @media screen and (max-width: 415px) {
   .solutions-form input {
-    width: 70%;
     font-size: 12px;
   }
 }
 @media screen and (max-width: 414px) {
   .solutions-form input {
-    width: 66%;
     font-size: 11px;
   }
 }
 @media screen and (max-width: 375px) {
   .solutions-form input {
-    width: 66%;
     font-size: 10px;
   }
 }
 @media screen and (max-width: 369px) {
   .solutions-form input {
-    width: 58%;
     font-size: 7px;
   }
 }
 @media screen and (max-width: 320px) {
   .solutions-form input {
-    width: 59%;
     font-size: 8px;
   }
 }
 @media screen and (max-width: 319px) {
   .solutions-form input {
-    width: 64%;
     font-size: 7px;
   }
 }
 @media screen and (max-width: 278px) {
   .solutions-form input {
-    width: 58%;
     font-size: 5px;
   }
 }
 @media screen and (max-width: 246px) {
   .solutions-form input {
-    width: 55%;
     font-size: 3px;
   }
 }
 .solutions-form .myBtn {
+  right: 9px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
   outline: none;
 }
 @media screen and (max-width: 992px) {
@@ -1486,98 +1428,6 @@ span:after {
     padding-top: 40px;
   }
 }
-.blog .solutions-form input {
-  font-size: 16px;
-  width: 76%;
-  padding-left: 8px;
-}
-@media screen and (max-width: 1199px) {
-  .blog .solutions-form input {
-    width: 71%;
-  }
-}
-@media screen and (max-width: 992px) {
-  .blog .solutions-form input {
-    width: 75%;
-  }
-}
-@media screen and (max-width: 991px) {
-  .blog .solutions-form input {
-    width: 84%;
-  }
-}
-@media screen and (max-width: 767px) {
-  .blog .solutions-form input {
-    width: 78%;
-  }
-}
-@media screen and (max-width: 576px) {
-  .blog .solutions-form input {
-    width: 80%;
-  }
-}
-@media screen and (max-width: 570px) {
-  .blog .solutions-form input {
-    width: 75%;
-  }
-}
-@media screen and (max-width: 450px) {
-  .blog .solutions-form input {
-    width: 75%;
-  }
-}
-@media screen and (max-width: 449px) {
-  .blog .solutions-form input {
-    width: 70%;
-  }
-}
-@media screen and (max-width: 415px) {
-  .blog .solutions-form input {
-    width: 70%;
-    font-size: 13px;
-  }
-}
-@media screen and (max-width: 375px) {
-  .blog .solutions-form input {
-    width: 70%;
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 374px) {
-  .blog .solutions-form input {
-    width: 64%;
-    font-size: 10px;
-  }
-}
-@media screen and (max-width: 369px) {
-  .blog .solutions-form input {
-    width: 59%;
-    font-size: 10px;
-  }
-}
-.blog .solutions-form .myBtn {
-  padding: 25px 24px 25px 24px;
-}
-@media screen and (max-width: 1024px) {
-  .blog .solutions-form .myBtn {
-    padding: 24px 22px 24px 22px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .blog .solutions-form .myBtn {
-    padding: 20px 22px 20px 22px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .blog .solutions-form .myBtn {
-    padding: 18px 22px 18px 22px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .blog .solutions-form .myBtn {
-    padding: 16px 22px 16px 22px;
-  }
-}
 
 .engagement {
   margin-top: 55px;
@@ -1969,109 +1819,6 @@ span:after {
 @media screen and (max-width: 320px) {
   .enterprise .enterprise__form {
     padding-right: 0px;
-  }
-}
-.enterprise .enterprise__form .solutions-form input {
-  width: 70%;
-}
-@media screen and (max-width: 1199px) {
-  .enterprise .enterprise__form .solutions-form input {
-    width: 62%;
-    font-size: 16px;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .enterprise .enterprise__form .solutions-form input {
-    width: 65%;
-    font-size: 16px;
-  }
-}
-@media screen and (max-width: 992px) {
-  .enterprise .enterprise__form .solutions-form input {
-    width: 68%;
-  }
-}
-@media screen and (max-width: 991px) {
-  .enterprise .enterprise__form .solutions-form input {
-    width: 81%;
-  }
-}
-@media screen and (max-width: 768px) {
-  .enterprise .enterprise__form .solutions-form input {
-    width: 74%;
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 576px) {
-  .enterprise .enterprise__form .solutions-form input {
-    width: 76%;
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 575px) {
-  .enterprise .enterprise__form .solutions-form input {
-    width: 70%;
-    font-size: 14px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .enterprise .enterprise__form .solutions-form input {
-    width: 70%;
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 449px) {
-  .enterprise .enterprise__form .solutions-form input {
-    width: 67%;
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 415px) {
-  .enterprise .enterprise__form .solutions-form input {
-    width: 66%;
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 415px) {
-  .enterprise .enterprise__form .solutions-form input {
-    width: 67%;
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 375px) {
-  .enterprise .enterprise__form .solutions-form input {
-    width: 62%;
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 374px) {
-  .enterprise .enterprise__form .solutions-form input {
-    width: 53%;
-    font-size: 9px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .enterprise .enterprise__form .solutions-form input {
-    width: 61%;
-    font-size: 11px;
-  }
-}
-.enterprise .enterprise__form .solutions-form button {
-  padding: 25px 24px 25px 24px;
-}
-@media screen and (max-width: 768px) {
-  .enterprise .enterprise__form .solutions-form button {
-    padding: 18px 26px 18px 26px;
-  }
-}
-@media screen and (max-width: 450px) {
-  .enterprise .enterprise__form .solutions-form button {
-    padding: 16px 26px 16px 26px;
-  }
-}
-@media screen and (max-width: 320px) {
-  .enterprise .enterprise__form .solutions-form button {
-    padding: 14px 26px 14px 26px;
   }
 }
 .enterprise .enterprise__photo {
