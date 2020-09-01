@@ -1005,6 +1005,12 @@ span:after {
     font-size: 7px;
   }
 }
+@media screen and (max-width: 248px) {
+  .solutions-form input {
+    width: 58%;
+    font-size: 5px;
+  }
+}
 .solutions-form .myBtn {
   outline: none;
 }

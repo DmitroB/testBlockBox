@@ -880,6 +880,10 @@ span{
                         width: 64%;
                         font-size: 7px;
                     }
+                    @media screen and (max-width: 248px){
+                        width: 58%;
+                        font-size: 5px;
+                    }
             }
             .myBtn{
                 outline: none;
