@@ -852,17 +852,33 @@ span{
                     @media screen and (max-width: 450px){
                         width: 60%;
                     }
+                    @media screen and (max-width: 449px){
+                        width: 57%;
+                        font-size: 11px;
+                    }
                     @media screen and (max-width: 415px){
                         width: 70%;
                         font-size: 12px;
+                    }
+                    @media screen and (max-width: 414px){
+                        width: 66%;
+                        font-size: 11px;
                     }
                     @media screen and (max-width: 375px){
                         width: 66%;
                         font-size: 10px;
                     }
+                    @media screen and (max-width: 369px){
+                        width: 58%;
+                        font-size: 7px;
+                    }
                     @media screen and (max-width: 320px){
                         width: 59%;
                         font-size: 8px;
+                    }
+                    @media screen and (max-width: 319px){
+                        width: 64%;
+                        font-size: 7px;
                     }
             }
             .myBtn{
@@ -879,7 +895,9 @@ span{
                     @media screen and (max-width: 415px){
                         padding: 10px 8px 10px 8px;
                     }
-                    
+                    @media screen and (max-width: 319px){
+                        font-size: 8px;
+                    }
             }
 }
 
@@ -1270,6 +1288,10 @@ span{
                     }
                     @media screen and (max-width: 374px){
                         width: 64%;
+                        font-size: 10px;
+                    }
+                    @media screen and (max-width: 369px){
+                        width: 59%;
                         font-size: 10px;
                     }
             }

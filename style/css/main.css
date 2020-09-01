@@ -963,10 +963,22 @@ span:after {
     width: 60%;
   }
 }
+@media screen and (max-width: 449px) {
+  .solutions-form input {
+    width: 57%;
+    font-size: 11px;
+  }
+}
 @media screen and (max-width: 415px) {
   .solutions-form input {
     width: 70%;
     font-size: 12px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .solutions-form input {
+    width: 66%;
+    font-size: 11px;
   }
 }
 @media screen and (max-width: 375px) {
@@ -975,10 +987,22 @@ span:after {
     font-size: 10px;
   }
 }
+@media screen and (max-width: 369px) {
+  .solutions-form input {
+    width: 58%;
+    font-size: 7px;
+  }
+}
 @media screen and (max-width: 320px) {
   .solutions-form input {
     width: 59%;
     font-size: 8px;
+  }
+}
+@media screen and (max-width: 319px) {
+  .solutions-form input {
+    width: 64%;
+    font-size: 7px;
   }
 }
 .solutions-form .myBtn {
@@ -1002,6 +1026,11 @@ span:after {
 @media screen and (max-width: 415px) {
   .solutions-form .myBtn {
     padding: 10px 8px 10px 8px;
+  }
+}
+@media screen and (max-width: 319px) {
+  .solutions-form .myBtn {
+    font-size: 8px;
   }
 }
 
@@ -1505,6 +1534,12 @@ span:after {
 @media screen and (max-width: 374px) {
   .blog .solutions-form input {
     width: 64%;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 369px) {
+  .blog .solutions-form input {
+    width: 59%;
     font-size: 10px;
   }
 }
